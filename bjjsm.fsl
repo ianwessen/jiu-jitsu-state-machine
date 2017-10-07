@@ -1,0 +1,37 @@
+
+// Starting
+PASSING <=> GUARD;
+
+PASSING -> HalfGuard;
+PASSING -> SideControl;
+
+GUARD -> FullGuard;
+GUARD -> Butterfly;
+
+FullGuard 'HipBump' -> Mount;
+FullGuard 'ArmDrag' -> BackControl;
+FullGuard 'Triangle' -> Submission;
+FullGuard -> RubberGuard;
+
+Butterfly -> NewJersey;
+Butterfly 'Sweep' -> Mount;
+
+NewJersey 'GoGoPlata' -> Submission;
+
+RubberGuard 'Omoplata' -> Submission;
+RubberGuard -> BackControl;
+
+Mount 'KimuraGrip' -> BackControl;
+Mount -> KneeOnBelly;
+Mount 'ArmTriangle' -> Submission;
+
+SideControl -> Mount;
+SideControl -> KneeOnBelly;
+SideControl 'NorthSouth' -> Submission;
+
+KneeOnBelly -> Submission;
+
+HalfGuard 'Darce' -> Submission;
+HalfGuard -> SideControl;
+
+BackControl 'RNC' => Submission;
