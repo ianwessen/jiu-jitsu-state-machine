@@ -1,4 +1,14 @@
 
+machine_name    : "Jiu jutsu state machine";
+machine_version : 1.0.0;
+machine_author  : "Ian Wessen <ianwessen@gmail.com>"
+machine_license : MIT
+
+jssm_version    : >= 5.0.0;
+graph_layout    : dot;
+
+
+
 // Starting
 PASSING <=> GUARD;
 
